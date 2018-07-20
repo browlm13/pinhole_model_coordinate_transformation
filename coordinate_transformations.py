@@ -89,5 +89,3 @@ def model_camera_matrices_from_images_points(model_points, image_points, camera_
 
     # note: transformation matrices are homogeneous
     return M2C, C2M
-
-# should have single method that solves for M2C, C2M, C2P, M2P. Note: there is no P2C or P2M as z information is lost
